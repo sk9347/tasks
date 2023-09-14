@@ -1,0 +1,92 @@
+body{
+    background-image: url('https://cdn.theatlantic.com/thumbor/EmW-E0FwUa0MhOoGk0BXYyBiBm0=/0x0:1718x1718/1718x1718/media/files/est/space-calculator/background6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+
+
+.moon{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    
+    border-radius: 100%; 
+    display: block;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px;
+    
+
+    animation-name: moon ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes moon {
+    100%{rotate:360deg;}
+
+    
+    
+}
+.earth{
+    display: block;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+
+    animation-name: earth ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes earth{
+    100%{rotate:360deg;}
+}
+.chand{
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 200px;
+    height: 200px;
+    animation: lander ;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+@keyframes lander{
+    0%{bottom:0%;right:10%;}
+    10%{bottom: 15%;right: 20%;rotate: -60deg;}
+    20%{bottom:20% ;right: 35% ;rotate: -70deg;}
+    30%{bottom:30% ;right: 40% ;rotate: -70deg;}
+    40%{bottom:40% ;right: 45% ;rotate: -75deg;}
+    45%{bottom:45% ;right: 45% ;rotate: -70deg;}
+    50%{bottom:50%;right: 47%;rotate: -70deg;}
+    55%{bottom: 75%;right: 50%;rotate: -65deg;}
+    60%{bottom: 85%;right: 55%;rotate: -60deg;}
+    65%{bottom: 100%;right:60%;rotate: -55deg;}
+    70%{bottom: 100%;right: 70%;rotate: -55deg;}
+    75%{bottom: 100%;right: 75%;rotate: -66deg;}
+    80%{bottom: 90%;right:80% ;rotate: -70deg;}
+    85%{bottom:70%;right: 90%;rotate: -100deg;}
+    90%{bottom: 65%;right: 90%;rotate: -130deg;}
+    93%{bottom: 50%;right: 90%;rotate: -160deg;}
+    94%{bottom: 30%;right: 90%;rotate: -180deg;}
+    95%{bottom:20%;right: 90%;rotate:-160deg}
+    96%{bottom: 20%;right:80% ;rotate:-160deg;}
+    97%{bottom: 20%;right:76% ;rotate:-160deg;}
+    98%{bottom: 20%;right:74% ;rotate:-160deg;}
+    99%{bottom: 20%;right:72% ;rotate:-160deg;}
+     100%{bottom: 25%;right:70% ;rotate:-160deg;}
+    
+    
+}
