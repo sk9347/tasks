@@ -58,8 +58,8 @@ body{
     height: 200px;
     animation: lander ;
     animation-duration: 10s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+   
+    animation-iteration-count:infinite;
     animation-timing-function: ease-in;
 
 }
@@ -76,17 +76,17 @@ body{
     65%{bottom: 100%;right:60%;rotate: -55deg;}
     70%{bottom: 100%;right: 70%;rotate: -55deg;}
     75%{bottom: 100%;right: 75%;rotate: -66deg;}
-    80%{bottom: 90%;right:80% ;rotate: -70deg;}
-    85%{bottom:70%;right: 90%;rotate: -100deg;}
-    90%{bottom: 65%;right: 90%;rotate: -130deg;}
-    93%{bottom: 50%;right: 90%;rotate: -160deg;}
-    94%{bottom: 30%;right: 90%;rotate: -180deg;}
-    95%{bottom:20%;right: 90%;rotate:-160deg}
-    96%{bottom: 20%;right:80% ;rotate:-160deg;}
-    97%{bottom: 20%;right:76% ;rotate:-160deg;}
-    98%{bottom: 20%;right:74% ;rotate:-160deg;}
-    99%{bottom: 20%;right:72% ;rotate:-160deg;}
-     100%{bottom: 25%;right:70% ;rotate:-160deg;}
+    80%{bottom: 90%;right:80% ;rotate: -70deg;width: 150px;height: 150px;}
+    85%{bottom:70%;right: 90%;rotate: -100deg;width: 150px;height: 150px;}
+    90%{bottom: 65%;right: 90%;rotate: -130deg;width: 150px;height: 150px;}
+    93%{bottom: 50%;right: 90%;rotate: -160deg;width: 150px;height: 150px;}
+    94%{bottom: 30%;right: 90%;rotate: -180deg;width: 150px;height: 150px;}
+    95%{bottom:20%;right: 90%;rotate:-160deg;width: 150px;height: 150px;}
+    96%{bottom: 20%;right:80% ;rotate:-160deg;width: 150px;height: 150px;}
+    97%{bottom: 20%;right:76% ;rotate:-160deg;width: 150px;height: 150px;}
+    98%{bottom: 20%;right:74% ;rotate:-160deg;width: 150px;height: 150px;}
+    99%{bottom: 20%;right:72% ;rotate:-160deg;width: 150px;height: 150px;}
+     100%{bottom: 25%;right:70% ;rotate:-160deg;display: none;}
     
     
 }
