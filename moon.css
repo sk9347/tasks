@@ -86,7 +86,7 @@ body{
     97%{bottom: 20%;right:76% ;rotate:-160deg;width: 150px;height: 150px;}
     98%{bottom: 20%;right:74% ;rotate:-160deg;width: 150px;height: 150px;}
     99%{bottom: 20%;right:72% ;rotate:-160deg;width: 150px;height: 150px;}
-     100%{bottom: 25%;right:70% ;rotate:-160deg;display: none;}
+     100%{bottom: 25%;right:70% ;rotate:-160deg;width: 100px;height: 100px;display: none;}
     
     
 }
