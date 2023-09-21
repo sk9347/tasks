@@ -1,18 +1,98 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>chandrayan</title>
-        <link rel="stylesheet" href="./moon.css">
-    </head>
-    <h1 style="color: white;text-align: center;">chandrayan-2</h1>
-    <div class="moon">
-        <img src="https://spaceplace.nasa.gov/review/all-about-the-moon/the-moon-near-side.en.jpg" alt="" style="display: inline-block; width: 100% ;border-radius: 100%;">
-    </div>
-    <div class="chand">
-        <img src="https://c.ndtvimg.com/2023-08/04f2nnlo_chandrayaan-lander-vikram_650x400_17_August_23.jpg" alt="" style="width: 100%; height: 100%;display: inline-block;border-radius: 100%;">
+        <title>gridetem</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+  box-sizing: border-box;
+}
 
-    </div>
-    <div class="earth">
-    <img src="https://www.thoughtco.com/thmb/bZbxog9GJSRxvMN9ZfHiXZLVRyo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Earth_Eastern_Hemisphere-56a8cda43df78cf772a0cc74.jpg" alt="" style="width: 100%;height: 100%;border-radius: 100%;">
-    </div>
+            header{
+                text-align: center;
+            }
+            #parent{
+                width: 100%;
+                height: auto;
+                display: grid;
+
+                grid-template-columns: auto auto auto;
+                grid-template-rows: auto;
+
+              
+            
+            }
+            a{
+                display: block;
+                background-color: skyblue;
+                width: 150px;
+                padding: 10px;
+                margin-bottom: 10px;
+                margin-left: 45%;
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover + div{
+
+             column-gap: 10px;
+             row-gap: 10px;
+                
+
+            }
+            @media  screen and (max-width:480px) {
+                a{
+                    margin-left: 10px;
+                }
+                
+            }
+           
+            footer{
+                width: 100%;
+                height: 150px;
+                background-color: aquamarine;
+                text-align: center;
+                padding-top: 20px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <header> <h1>PHOTO FOLIO</h1>
+         <p>A template made by w3.css for photographers. </p>
+        </header>
+        <a href="#parent">Toggle grid padding</a>
+        <div id="parent">
+            <div>
+                <img src="https://www.w3schools.com/w3images/rocks.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/sound.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/woods.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/rock.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/nature.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/mist.jpg" alt="" width="100%">
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/coffee.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/bridge.jpg" width="100%">
+                <img src="https://www.w3schools.com/w3images/notebook.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/london.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/rocks.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/avatar_g.jpg" alt="" width="100%">
+
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/mist.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/workbench.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/gondol.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/skies.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="" width="100%">
+            </div>
+
+        </div>
+    <footer>
+       <p>powered by w3schools</p>
+    </footer>
+</body>
 </html>
